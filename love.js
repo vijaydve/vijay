@@ -6,7 +6,7 @@ const noBtn = document.getElementById("no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "yes i love too igloo!";
-  gif.src = " ";
+  gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
@@ -46,4 +46,5 @@ noBtn.addEventListener("mouseover", () => {
 //     console.log(a)
 //     a = ""
 //     // console.log()
+
 // }
